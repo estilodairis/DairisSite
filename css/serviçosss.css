@@ -190,6 +190,38 @@ p {
     p {
         font-size: 1rem;
     }
+
+    .Boox{
+        width: 100%!important;
+        position: relative;
+        min-height: 500px;
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: right;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgba(255, 255, 255, 0.753)
+    }
+    
+    .Boox2{
+        width: 100%!important;
+        position: relative;
+         min-height: 500px;
+         background-color: #ddcda7;
+         position: relative;
+         margin: 40px;
+         background-color: #ddcda7;
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-top: 1px solid rgb(255, 255, 255);
+         border-left: 1px solid rgba(255, 255, 255, 0.753)
+    }
+    
 }
              /*slideess*/
 
@@ -302,7 +334,7 @@ input {
 .Boox{
     position: relative;
     width: 30%;
-    height: 450px;
+    min-height: 500px;
     border-radius: 15px;
     overflow: hidden;
     display: flex;
@@ -317,7 +349,7 @@ input {
 .Boox2{
     position: relative;
      width: 50%;
-     height: 450px;
+     min-height: 500px;
      background-color: #ddcda7;
      position: relative;
      margin: 40px;
